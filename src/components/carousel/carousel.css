@@ -1,0 +1,46 @@
+.cardContent {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.cardContent h1 {
+    margin-bottom: 45px;
+}
+
+.cardCarousel {
+    margin: 0 auto;
+    width: 70%;
+    border: 3px solid rgb(143, 239, 244);
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.cardCarousel .Photo {
+    width: 30%;
+}
+
+.cardCarousel .Bio {
+    margin-left: 8px;
+    width: 70%;
+    text-align: left;
+}
+
+.cardCarousel img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+h1.charName {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+p.charStatus {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}

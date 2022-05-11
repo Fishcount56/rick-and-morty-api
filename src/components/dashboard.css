@@ -1,0 +1,53 @@
+.DashboardContent {
+  background: rgb(119, 219, 224);
+  background: linear-gradient(
+    0deg,
+    rgba(119, 219, 224, 1) 0%,
+    rgba(227, 240, 241, 1) 30%
+  );
+  height: 100%;
+}
+
+.DashboardTitle {
+  margin: 8rem auto;
+  padding: 0 auto;
+  text-align: center;
+
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.DashboardTitle button {
+  margin-top: 70px;
+  background-color: #4ECDD4;
+  padding: 8px 80px;
+  border: none;
+  border-radius: 8px;
+  font-size: 24px;
+}
+
+.DashboardTitle button:hover {
+  opacity: .85;
+}
